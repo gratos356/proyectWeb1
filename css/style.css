@@ -15,7 +15,8 @@ body{
 }
 
 .title h1{
-    background: red;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-naranja);
     width: 14vh;
     font-size: 5.4vh;
     position: absolute;
@@ -39,7 +40,7 @@ article {
     ".  "; 
 }
 .main{
-    background: gold;
+
     height: 6vh;
     display: flex;
     justify-content: space-evenly;
@@ -51,6 +52,11 @@ article {
     color: var(--color-whithe);
     font-family: 'Poppins', sans-serif;
 }
+a{
+    color: var(--color-whithe);
+    text-decoration: none;
+}
+
 .n_1{ 
     position: absolute;
     width: 100vh;
@@ -95,6 +101,7 @@ button{
     align-items: center;
 }
 .burger img{
-    background: red;
-    
+    height: 70vh;
+    margin-top: 20vh;
+    margin-left: -20vh;
 }
