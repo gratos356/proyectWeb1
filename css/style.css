@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PlusJakartaSans-Regular";
+
 }
 body{
     background-color: var(--color-black);
@@ -25,20 +25,21 @@ body{
     margin-left: 9vh;
     
 }
-article {
+/* article {
     grid-column-gap: 100em;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(5, 1fr); 
+    grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(1, 1fr); 
     grid-gap: 1vh;
     grid-template-areas: 
-    ".  " 
-    ".  "
-    ".  "
-    ".  "
-    ".  "
-    ".  "; 
-}
+    ".  ." 
+    ".  ."
+    ".  ."
+    ".  ."
+    ".  ."
+    ".  ."
+    ; 
+} */
 .main{
 
     height: 6vh;
@@ -50,7 +51,7 @@ article {
     margin-top: 4vh;
     margin-right: 6vh;
     color: var(--color-whithe);
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
 }
 a{
     color: var(--color-whithe);
@@ -65,7 +66,7 @@ a{
     display: flex;
     margin-top: -50vh;
     color: var(--color-naranja);
-    font-weight:500 ;
+    font-weight:400 ;
 
 }
 .n_2{
@@ -93,7 +94,7 @@ button{
 
 .full_web_site{
     margin: 25vh;
-    position: relative;
+    position: absolute;
     height: 80vh;
     width: 90vh;
     display: flex;
@@ -102,6 +103,75 @@ button{
 }
 .burger img{
     height: 70vh;
-    margin-top: 20vh;
-    margin-left: -20vh;
+    margin-top:15vh;
+    margin-left: 125vh;
+}
+.parte2 img{
+    height: 58vh;
+    margin-left: 16vh;
+    position: absolute;
+}
+
+.two{
+    /* background: red; */
+    height: 60vh;
+    width: 70vh;
+    margin-left: 120vh;
+    margin-top:15vh;
+}
+.button button{
+    font-size: 3vh;
+    margin-left: 1vh;
+    background: var(--color-naranja);
+    color: var(--color-whithe);
+    font-weight: 400;
+}
+.about_us{
+    color: var(--color-naranja);
+    font-family: Poppins, sans-serif;
+    font-size: 3vh;
+    
+}
+.we_speak h3{
+    color: var(--color-whithe);
+    font-size: 6vh;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+.it_is{
+    margin-top: 3vh;
+    font-size: 3vh;
+    color: var(--color-whithe);
+}
+
+.tres{
+    background: red;
+    height: 20vh;
+    width:100vh;
+    margin-left: 50vh;
+    
+}
+.service{
+    font-size: 3vh;
+    margin-left: 40%;
+    color: var(--color-naranja);
+}
+.we_provide{
+    font-size: 7.5vh;
+    color: var(--color-whithe);
+}
+
+.img1{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 20vh;
+}
+.img2{
+    position: absolute;
+    margin-left: 75vh;
+}
+.img3{
+    position: absolute;
+    margin-left: 127vh;
 }
