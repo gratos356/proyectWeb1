@@ -40,7 +40,7 @@ body{
     ".  ."
     ; 
 } */
-.main{
+.main{    
 
     height: 6vh;
     display: flex;
@@ -53,6 +53,8 @@ body{
     color: var(--color-whithe);
     font-family: Poppins, sans-serif;
 }
+
+ 
 a{
     color: var(--color-whithe);
     text-decoration: none;
@@ -431,4 +433,466 @@ button{
 .icons{
     margin-top: 2vh;
     font-size: 3.5vw;
+}
+@media screen and (max-width:1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    body{
+        background-color: var(--color-black);
+        
+    }
+    
+    .title h1{
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-naranja);
+        width: 14vh;
+        font-size: 5.4vh;
+        position: absolute;
+        display: flex;
+        justify-content: start;
+        margin-left: 9vh;
+        margin-top: 4vh;
+    }
+    /* article {
+        grid-column-gap: 100em;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(1, 1fr); 
+        grid-gap: 1vh;
+        grid-template-areas: 
+        ".  ." 
+        ".  ."
+        ".  ."
+        ".  ."
+        ".  ."
+        ".  ."
+        ; 
+    } */
+    .main{    
+    
+        height: 6vh;
+        display: flex;
+        
+        justify-content: flex-start;
+        justify-content: flex-end;
+        gap: 7vh;
+        font-size: 1.5vh;
+        margin-top: 1vh;
+        margin-left: 70vh;
+        color: var(--color-whithe);
+        font-family: Poppins, sans-serif;
+    }
+    
+     
+    a{
+        color: var(--color-whithe);
+        text-decoration: none;
+    }
+    
+    .n_1{ 
+        
+        position: absolute;
+        width: 60vh;
+        font-family: Poppins, sans-serif;
+        font-size: 10vh;
+        display: flex;
+        margin-top: -90vh;
+        color: var(--color-naranja);
+        font-weight:400 ;
+        margin-right: 65vh;
+    }
+    .n_2{
+        position: absolute;
+        color: var(--color-whithe);
+        width: 35vh;
+        font-size: 3vh;
+        font-family:Poppins, sans-serif ;
+        display: flex;
+        margin-left: -65vh;
+        margin-top: -60vh;
+        text-align: center;
+    }
+    button{
+        position: absolute;
+        background: var(--color-naranja);
+        height: 6vh;
+        font-size: 3vh;
+        width: 25vh;
+        border-radius: 10%;
+        color: var(--color-whithe);
+        font-family: Poppins, sans-serif;
+        margin-left: -70vh;
+        margin-top: -40vh;
+    }
+    
+    .full_web_site{
+        margin-left: 65vh;
+        position: absolute;
+        height: 80vh;
+        width: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger img{
+        height: 60vh;
+        margin-top:60vh;
+        margin-left: 5vh;
+    }
+    .parte2 img{
+        height: 58vh;
+        margin-left: 5vh;
+        position: absolute;
+        margin-top: 50vh;
+    }
+    
+    .two{
+        text-align: center;
+        /* background: red; */
+        height: 60vh;
+        width: 58vh;
+        margin-left: 5vh;
+        margin-top:80vh;
+    }
+    .button button{
+        font-size: 3vh;
+        margin-left: 1vh;
+        background: var(--color-naranja);
+        color: var(--color-whithe);
+        font-weight: 400;
+        margin-top: 9vh;
+    }
+    .about_us{
+        color: var(--color-naranja);
+        font-family: Poppins, sans-serif;
+        font-size: 3vh;
+        
+    }
+    .we_speak h3{
+        color: var(--color-whithe);
+        font-size: 6vh;
+        font-family: Poppins, sans-serif;
+        font-weight: 400;
+    }
+    
+    .it_is{
+        margin-top: 3vh;
+        font-size: 3vh;
+        color: var(--color-whithe);
+    }
+    
+    .tres{
+        /* background: red; */
+        height: 20vh;
+        
+        width:1vh;
+        margin-left: 50vh;
+        margin-top: 80VH;
+    }
+    .foodMenu{
+        font-size: 3vh;
+        margin-left: -25vh;
+        color: var(--color-naranja);
+    }
+    .we_provide{
+        width: 40vh;
+        font-size: 3vh;
+        text-align: center;
+        margin-left: -35vh;
+        color: var(--color-whithe);
+    }
+    
+    .img1{
+        
+        background: var(--color-whithe);
+        height: 70vh;
+        width: 50vh;
+        position: absolute;
+    
+        margin-left: 11vh;
+    }
+    .img1 img{
+        height: 70%;
+        width: 100%;
+    }
+    .img2{
+        background: var(--color-whithe);
+        height: 70vh;
+        width: 50vh;
+        position: absolute;
+        margin-top: 80vh;
+        margin-left: 11vh;
+    }
+    .img2 img{
+        height: 70%;
+        width: 100%;
+    }
+    .img3{
+        background: var(--color-whithe);
+        height: 70vh;
+        width: 50vh;
+        position: absolute;
+        margin-top: 160vh;
+        margin-left: 11vh;
+    }
+    .img3 img{
+        height: 70%;
+        width: 100%;
+    }
+    
+    .full_chicken h3{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+        /* justify-content: space-betwen; */
+        margin-left: 20%;
+        text-align: center;
+        flex-direction: column;
+        /* width: 11%;
+        margin-left: 10vh; */
+        
+    }
+    .chicken{
+        font-size: 3vh;
+        font-family:Poppins, sans-serif ;
+    }
+    .tastyFood{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;
+    }
+    .price1{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;
+        color: var(--color-naranja);
+    }
+    .fullSpecial{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+    
+        margin-left: 20%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .special{
+        font-size: 3vh;
+        font-family:Poppins, sans-serif ;
+    }
+    .trasty{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;    
+    }
+    .price2{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;
+        color: var(--color-naranja);
+    }
+    .fullFry{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+    
+        margin-left: 20%;
+        text-align: center;
+        flex-direction: column; 
+    }
+    .ChickenFry{
+        font-size: 3vh;
+        font-family:Poppins, sans-serif ;
+    }
+    .tasty1{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;
+    }
+    .price3{
+        font-size: 2vh;
+        font-family: Poppins, sans-serif;
+        color: var(--color-naranja);
+    }
+    .Services{
+        font-size: 3vh;
+        margin-top: 300vh;
+        margin-left: 60%;
+        color: var(--color-naranja);
+    }
+    .we_provide2{
+        font-size: 4vh;
+        color: var(--color-whithe);
+        margin-right: -40%;
+        text-align: center;
+        
+    }
+    .img_1 img{
+        height: 50vh;
+    }
+    .img_1{
+        /* background: red; */
+        height: 67vh;
+        width: 50vh;
+        position: absolute;
+        margin-top: 1vh;
+        margin-left: 15vh;
+    }
+    .Order{
+        
+        color: var(--color-naranja);
+        font-size: 4vh;
+        font-weight: 500;
+        font-family: Poppins, sans-serif;
+    }
+    .long{
+        font-family: Poppins, sans-serif;
+        font-size: 2vh;
+    }
+    .fullOrder{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+    
+        margin-left: 15%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Shipping{
+        color: var(--color-naranja);
+        font-size: 4vh;
+        font-weight: 500;
+        font-family: Poppins, sans-serif;
+    }
+    .img_2{
+        position: absolute;
+        margin-left: 3vh;
+        margin-top: 50vh;
+    }
+    .fullShiping{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+    
+        margin-left: 20%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .it{
+        font-family: Poppins, sans-serif;
+        font-size: 2vh;
+    }
+    .fullDellvered{
+        display: flex;
+        
+        height: 6vh;
+        width: 30vh;
+    
+        margin-left: 20%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Dellvered{
+        color: var(--color-naranja);
+        font-size: 4vh;
+        font-weight: 500;
+        font-family: Poppins, sans-serif;
+    }
+    .is{
+        font-family: Poppins, sans-serif;
+        font-size: 2vh;
+    }
+    .img_3{
+        position: absolute;
+        margin-left: 2vh;
+        margin-top: 150vh;
+    }
+    .fullCaja{
+        background: var(--color-whithe);
+        width: 58vh;
+        height: 50vh;
+        margin-left:8vh;
+        margin-top: 300vh;
+        border-color: black;
+        border-radius: 1%;
+        display: flex;
+        text-align: center;
+        
+        justify-content: center;
+        
+    }
+    .newButton button{
+        position: absolute;
+        margin-left: -12vh;
+        margin-top:37vh;
+        margin-top: 40vh;
+    }
+    .WeMake{
+        font-size: 4vh;
+        position: absolute;
+        margin-top:17vh ;
+        /* background: red; */
+        height: 7vh;
+    }
+    .menus{
+        color: var(--color-naranja);
+        text-decoration-line: underline;
+    }
+    .content{
+    
+        color: var(--color-whithe);
+    }
+    .full{
+        font-size: 3vh;
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 15vh;
+    
+    }
+    .full2{
+        font-size: 3vh;
+        position: absolute;
+        margin-top: 60vh;
+        margin-left: 15vh;
+    }
+    .OurServive{
+        color: var(--color-naranja);
+        text-decoration-line: underline;
+    }
+    .content2{
+        color: var(--color-whithe);
+    }
+    .full3{
+        font-size: 3vh;
+        position: absolute;
+        margin-top: 120vh;
+        margin-left: 15vh;
+    }
+    .Information{
+        color: var(--color-naranja);
+        text-decoration-line: underline;
+    }
+    .content3{
+        color: var(--color-whithe);
+    }
+    .full4{
+        position: absolute;
+        margin-top: 190vh;
+        margin-left: 15vh;
+    }
+    .contact{
+        font-size: 8vw;
+        color: var(--color-naranja);
+        text-decoration-line:underline ;
+    }
+    .icons{
+       
+        color:var(--color-whithe);
+        margin-top: 2vh;
+        font-size: 10vw;
+    }
 }
