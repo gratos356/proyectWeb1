@@ -117,7 +117,7 @@ button{
     height: 60vh;
     width: 70vh;
     margin-left: 120vh;
-    margin-top:15vh;
+    margin-top:80vh;
 }
 .button button{
     font-size: 3vh;
@@ -146,13 +146,13 @@ button{
 }
 
 .tres{
-    background: red;
+    /* background: red; */
     height: 20vh;
     width:100vh;
     margin-left: 50vh;
-    
+    margin-top: 80VH;
 }
-.service{
+.foodMenu{
     font-size: 3vh;
     margin-left: 40%;
     color: var(--color-naranja);
@@ -163,15 +163,272 @@ button{
 }
 
 .img1{
+    
+    background: var(--color-whithe);
+    height: 70vh;
+    width: 50vh;
+    position: absolute;
+
+    margin-left: 20vh;
+}
+.img2{
+    background: var(--color-whithe);
+    height: 70vh;
+    width: 50vh;
+    position: absolute;
+    margin-left: 74vh;
+}
+.img3{
+    background: var(--color-whithe);
+    height: 70vh;
+    width: 50vh;
+    position: absolute;
+    margin-left: 127vh;
+}
+
+.full_chicken h3{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+    /* justify-content: space-betwen; */
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column;
+    /* width: 11%;
+    margin-left: 10vh; */
+    
+}
+.chicken{
+    font-size: 3vh;
+    font-family:Poppins, sans-serif ;
+}
+.tastyFood{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;
+}
+.price1{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;
+    color: var(--color-naranja);
+}
+.fullSpecial{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.special{
+    font-size: 3vh;
+    font-family:Poppins, sans-serif ;
+}
+.trasty{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;    
+}
+.price2{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;
+    color: var(--color-naranja);
+}
+.fullFry{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column; 
+}
+.ChickenFry{
+    font-size: 3vh;
+    font-family:Poppins, sans-serif ;
+}
+.tasty1{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;
+}
+.price3{
+    font-size: 2vh;
+    font-family: Poppins, sans-serif;
+    color: var(--color-naranja);
+}
+.Services{
+    font-size: 3vh;
+    margin-top: 200vh;
+    margin-left: 45%;
+    color: var(--color-naranja);
+}
+.we_provide2{
+    font-size: 7.5vh;
+    color: var(--color-whithe);
+    margin-left: 20%;
+    
+}
+.img_1 img{
+    height: 50vh;
+}
+.img_1{
+    /* background: red; */
+    height: 67vh;
+    width: 50vh;
     position: absolute;
     margin-top: 1vh;
     margin-left: 20vh;
 }
-.img2{
-    position: absolute;
-    margin-left: 75vh;
+.Order{
+    color: var(--color-naranja);
+    font-size: 4vh;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
 }
-.img3{
+.long{
+    font-family: Poppins, sans-serif;
+    font-size: 2vh;
+}
+.fullOrder{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.Shipping{
+    color: var(--color-naranja);
+    font-size: 4vh;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+.img_2{
     position: absolute;
-    margin-left: 127vh;
+    margin-left: 70vh;
+    margin-top: -58vh;
+}
+.fullShiping{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.it{
+    font-family: Poppins, sans-serif;
+    font-size: 2vh;
+}
+.fullDellvered{
+    display: flex;
+    
+    height: 6vh;
+    width: 30vh;
+
+    margin-left: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.Dellvered{
+    color: var(--color-naranja);
+    font-size: 4vh;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+.is{
+    font-family: Poppins, sans-serif;
+    font-size: 2vh;
+}
+.img_3{
+    position: absolute;
+    margin-left: 135vh;
+    margin-top: -52vh;
+}
+.fullCaja{
+    background: var(--color-whithe);
+    width: 190vh;
+    height: 50vh;
+    margin-left: 10vh;
+    margin-top: 100vh;
+    border-color: black;
+    border-radius: 1%;
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    
+}
+.newButton button{
+    position: absolute;
+    margin-left: -12vh;
+    margin-top:37vh;
+}
+.WeMake{
+    font-size: 7vh;
+    position: absolute;
+    margin-top:17vh ;
+    /* background: red; */
+    height: 7vh;
+}
+.menus{
+    color: var(--color-naranja);
+    text-decoration-line: underline;
+}
+.content{
+
+    color: var(--color-whithe);
+}
+.full{
+    font-size: 3vh;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 30vh;
+
+}
+.full2{
+    font-size: 3vh;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 60vh;
+}
+.OurServive{
+    color: var(--color-naranja);
+    text-decoration-line: underline;
+}
+.content2{
+    color: var(--color-whithe);
+}
+.full3{
+    font-size: 3vh;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 100vh;
+}
+.Information{
+    color: var(--color-naranja);
+    text-decoration-line: underline;
+}
+.content3{
+    color: var(--color-whithe);
+}
+.full4{
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 150vh;
+}
+.contact{
+    font-size: 2vw;
+    color: var(--color-naranja);
+    text-decoration-line:underline ;
+}
+.icons{
+    margin-top: 2vh;
+    font-size: 3.5vw;
 }
